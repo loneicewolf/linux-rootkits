@@ -4,11 +4,12 @@
 
 Example:
 
+```
 //prefix = the prefix to hide.
 //kpath =  the dir to "operte" on / inside of.  Inside this directory the files with the chosen prefix will be hidden.
 
-sudo insmod fhide.ko prefix="_SomeVeryLongPrefix" path="/home/user/"
-
+		sudo insmod fhide.ko prefix="_SomeVeryLongPrefix" path="/home/user/"
+```
 
 
 This rootkit is similar to the
@@ -18,17 +19,17 @@ the filesystem « / »
 
 ## Compilation ##
 ```
-	$ make
+	make
 ```
 
 ## Installation ##
 ```
-	$ sudo insmod fhide.ko
+	sudo insmod fhide.ko
 ```
 
 ## Removal ##
 ```
-	$ sudo rmmod fhide
+	sudo rmmod fhide
 ```
 
 ## Disclaimer ##
