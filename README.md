@@ -1,3 +1,6 @@
+check out the different branches, **especially the now new and cleaned up [patch-5](https://github.com/loneicewolf/linux-rootkits/tree/patch-5)** which is more clear and better. I didn't change nfhook on patch-5 but cleared up the other 2 rootkits.
+
+
 #### NOTE THIS IS NO LONGER THE ORIGINAL ROOTKITS FROM nisay759/linux-rootkits  THESE ARE MODIFIED #
 
 ### Improved to work with kernel 5.x and some other contributions, e.g on fhide.
